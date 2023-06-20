@@ -1,0 +1,12 @@
+package com.openclassrooms.datalayer.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.openclassrooms.datalayer.Repository.CategoryRepository;
+
+@Service
+public class CategoryService {
+	@Autowired
+	CategoryRepository CategoryRepositories;
+}

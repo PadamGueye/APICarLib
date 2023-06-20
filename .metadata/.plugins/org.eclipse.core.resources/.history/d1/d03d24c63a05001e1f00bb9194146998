@@ -1,0 +1,10 @@
+package com.openclassrooms.datalayer.Service;
+
+import org.springframework.stereotype.Service;
+
+import com.openclassrooms.datalayer.Repository.CategoryRepository;
+
+@Service
+public class CategoryService {
+	CategoryRepository CategoryRepositories;
+}

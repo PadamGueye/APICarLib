@@ -1,0 +1,16 @@
+package com.openclassrooms.datalayer.Repository;
+
+import org.springframework.data.repository.CrudRepository;
+import org.springframework.stereotype.Repository;
+
+import com.openclassrooms.datalayer.model.Product;
+
+@Repository
+public interface ProductRepository extends CrudRepository<Product, Integer> {
+	
+	public Iterable<Product> findByName(String Name);
+	
+	public Iterable<Product> findByCategoriesName(String name);
+	
+	public Iterable<Product> findByCostLessThan(Integer cost);
+}

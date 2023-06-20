@@ -1,0 +1,5 @@
+package com.openclassrooms.datalayer.Service;
+
+public class CategoryService {
+
+}

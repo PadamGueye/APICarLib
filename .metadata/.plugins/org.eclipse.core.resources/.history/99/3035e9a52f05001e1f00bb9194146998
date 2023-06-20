@@ -1,0 +1,5 @@
+package com.openclassrooms.datalayer.model;
+
+public class product {
+
+}
